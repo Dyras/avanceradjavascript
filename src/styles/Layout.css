@@ -1,0 +1,47 @@
+.layout {
+    width: 100%;
+}
+
+.layout header {
+    height: 75px;
+    background-color: grey;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+.layout header ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 20px;
+    margin-right: 1rem;
+}
+
+.layout section {
+    display: flex;
+}
+
+.layout aside {
+    width: 20%;
+    height: 70vh;
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.layout main {
+    width: 80%;
+    background-color: bisque;
+}
+
+.layout footer {
+    height: 100px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
